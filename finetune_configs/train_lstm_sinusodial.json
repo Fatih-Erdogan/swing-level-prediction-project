@@ -1,0 +1,15 @@
+{
+    "load_model": "out/pretrain/forex2/lstm-sin-6/reg/model_epoch_4.pth",
+    "model_out": "out/audusd/lstm-sinusodial6/",
+    "type": "forex",
+    "pair": "audusd",
+    "window_size": 336,
+    "batch_size": 16,
+    "value_only": true,
+    "optimizer": "adamw",
+    "lr": 0.000008,
+    "wd": 0.000008,
+    "epochs": 100,
+    "eval_period": 1,
+    "checkpoint_period": 1
+}

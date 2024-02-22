@@ -1,0 +1,14 @@
+{
+    "load_model": null,
+    "model_out": "out/pretrain/ignore/grn-sin-1/",
+    "type": "forex",
+    "window_size": 336,
+    "batch_size": 32,
+    "value_only": true,
+    "optimizer": "adamw",
+    "lr": 0.005,
+    "wd": 0.002,
+    "epochs": 100,
+    "eval_period": 1,
+    "checkpoint_period": 1
+}

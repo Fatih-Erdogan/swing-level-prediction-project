@@ -1,0 +1,15 @@
+{
+  "load_model": "out/pretrain/ignore/grn-sin-1/reg/model_epoch_1.pth",
+  "model_out": "out/audusd/grn-sinusodial/",
+  "type": "forex",
+  "pair": "audusd",
+  "window_size": 336,
+  "batch_size": 16,
+  "value_only": true,
+  "lr": 0.000002,
+  "wd": 0.000003,
+  "optimizer": "adamw",
+  "epochs": 100,
+  "eval_period": 1,
+  "checkpoint_period": 1
+}

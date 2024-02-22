@@ -1,0 +1,15 @@
+{
+    "load_model": "out/audusd/lstm-learnable/reg/model_epoch_7.pth",
+    "model_out": "out/audusd/lstm-learnable/",
+    "type": "forex",
+    "pair": "audusd",
+    "window_size": 336,
+    "batch_size": 16,
+    "value_only": true,
+    "optimizer": "adamw",
+    "lr": 0.000002,
+    "wd": 0.000002,
+    "epochs": 100,
+    "eval_period": 1,
+    "checkpoint_period": 1
+}

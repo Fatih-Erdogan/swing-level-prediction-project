@@ -1,0 +1,15 @@
+{
+  "load_model": "out/pretrain/forex/grn-learnable/reg/model_epoch_8.pth",
+  "model_out": "out/audusd/grn-learnable/",
+  "type": "forex",
+  "pair": "audusd",
+  "window_size": 336,
+  "batch_size": 16,
+  "value_only": true,
+  "lr": 0.000005,
+  "wd": 0.000005,
+  "optimizer": "adamw",
+  "epochs": 100,
+  "eval_period": 1,
+  "checkpoint_period": 1
+}

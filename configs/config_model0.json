@@ -1,0 +1,18 @@
+{
+  "inp_dim": 5,
+  "metadata_dim": 26,
+  "metadata_bias": true,
+  "metadata_gate_bias": true,
+  "temporal_enricher_dropout": 0.2,
+  "fusion_model_dim": 16,
+  "fusion_num_heads": 1,
+  "fusion_num_layers": 1,
+  "fusion_apply_grn": true,
+  "fusion_dropout": 0.2,
+  "max_window": 336,
+  "positional_info": ["grn", "sinusodial"],
+  "lstm_num_layers": 1,
+  "lstm_bidirectional": false,
+  "lstm_dropout": 0.4,
+  "loss_punish_cert": 1.2
+}

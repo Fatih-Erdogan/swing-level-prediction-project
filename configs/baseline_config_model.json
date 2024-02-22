@@ -1,0 +1,10 @@
+{
+  "inp_dim": 5,
+  "metadata_dim": 26,
+  "metadata_bias": true,
+  "metadata_gate_bias": true,
+  "hidden_dim": 32,
+  "lstm_num_layers": 1,
+  "lstm_bidirectional": true,
+  "lstm_dropout": 0.2
+}

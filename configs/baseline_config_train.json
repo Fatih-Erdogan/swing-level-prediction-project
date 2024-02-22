@@ -1,0 +1,15 @@
+{
+  "load_model": null,
+  "model_out": "out/forex/baseline/checkpoint1",
+  "type": "forex",
+  "pair": "all",
+  "window_size": 336,
+  "batch_size": 16,
+  "value_only": true,
+  "lr": 0.00005,
+  "wd": 0.0001,
+  "optimizer": "adamw",
+  "epochs": 100,
+  "eval_period": 1,
+  "checkpoint_period": 1
+}
